@@ -1,0 +1,17 @@
+# node / tooling
+node_modules/
+.netlify/
+.cache/
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# raw extracted assets — keep out of repo, only the curated /assets/ ship
+_assets_raw/
+
+# claude/local
+.claude/launch.json
+.claude/settings.local.json
