@@ -12,7 +12,10 @@
 <meta property="og:url" content="https://coolchef.in/" />
 <meta property="og:image" content="https://coolchef.in/assets/img/1000332185.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<link rel="preload" href="/assets/fonts/Cheri.ttf" as="font" type="font/ttf" crossorigin />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;900&family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" />
 <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
@@ -23,6 +26,7 @@
     <a href="#chef">Chef</a>
     <a href="#dj">DJ</a>
     <a href="#podcast">Podcast</a>
+    <a href="#feed">Feed</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -37,15 +41,16 @@
         <source src="/assets/video/1000332217.mp4" type="video/mp4" />
       </video>
       <div class="hero__scrim"></div>
+      <div class="hero__grain"></div>
     </div>
 
     <div class="hero__inner">
-      <p class="hero__eyebrow">aka Kaviraj Thadani</p>
+      <p class="hero__eyebrow">aka <em>Kaviraj Thadani</em></p>
       <h1 class="hero__logo" aria-label="COOLCHEF">
         <span>COOL</span><span>CHEF</span>
       </h1>
       <p class="hero__tags">
-        <span>Chef</span><i>·</i><span>DJ</span><i>·</i><span>Podcaster</span>
+        <span>Chef</span><i>/</i><span>DJ</span><i>/</i><span>Podcaster</span>
       </p>
       <a class="hero__scroll" href="#chef" aria-label="Scroll to Chef section">
         <span>scroll</span>
@@ -60,11 +65,11 @@
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
       <span>Chef</span><em>★</em><span>DJ</span><em>★</em><span>Podcaster</span><em>★</em>
-      <span>Catering</span><em>★</em><span>Consultancy</span><em>★</em><span>Vocal House</em><em>★</em>
+      <span>Catering</span><em>★</em><span>Consultancy</span><em>★</em><span>Vocal House</span><em>★</em>
       <span>Retro 80s 90s 2000s</span><em>★</em><span>Old School Hip Hop</span><em>★</em>
       <span>Hard Dance</span><em>★</em><span>Mumbai</span><em>★</em>
       <span>Chef</span><em>★</em><span>DJ</span><em>★</em><span>Podcaster</span><em>★</em>
-      <span>Catering</span><em>★</em><span>Consultancy</span><em>★</em><span>Vocal House</em><em>★</em>
+      <span>Catering</span><em>★</em><span>Consultancy</span><em>★</em><span>Vocal House</span><em>★</em>
       <span>Retro 80s 90s 2000s</span><em>★</em><span>Old School Hip Hop</span><em>★</em>
       <span>Hard Dance</span><em>★</em><span>Mumbai</span><em>★</em>
     </div>
@@ -73,8 +78,8 @@
   <!-- CHEF ----------------------------------------------------------- -->
   <section id="chef" class="section section--chef">
     <div class="section__head">
-      <p class="section__num">01</p>
-      <h2 class="section__title">The Chef</h2>
+      <p class="section__num">01 / Chef</p>
+      <h2 class="section__title">The <em>Chef</em></h2>
       <p class="section__lede">
         Catering, consultancy and menu planning for restaurants,
         private dinners and events.
@@ -83,12 +88,12 @@
 
     <div class="chef__brands">
       <a class="brand" href="https://seoulmate.in" target="_blank" rel="noopener">
-        <p class="brand__kicker">Brand</p>
+        <p class="brand__kicker">Brand 01</p>
         <p class="brand__name">Seoulmate</p>
         <p class="brand__url">seoulmate.in <span aria-hidden="true">→</span></p>
       </a>
       <a class="brand" href="https://kaavomeat.com" target="_blank" rel="noopener">
-        <p class="brand__kicker">Brand</p>
+        <p class="brand__kicker">Brand 02</p>
         <p class="brand__name">Kaavo Meat</p>
         <p class="brand__url">kaavomeat.com <span aria-hidden="true">→</span></p>
       </a>
@@ -99,14 +104,16 @@
       <li>Consultancy</li>
       <li>Menu Planning</li>
       <li>Private Events</li>
+      <li>Pop-Ups</li>
+      <li>Recipe Dev</li>
     </ul>
   </section>
 
   <!-- DJ ------------------------------------------------------------- -->
   <section id="dj" class="section section--dj">
     <div class="section__head">
-      <p class="section__num">02</p>
-      <h2 class="section__title">The DJ</h2>
+      <p class="section__num">02 / DJ</p>
+      <h2 class="section__title">The <em>DJ</em></h2>
       <p class="section__lede">
         A career spanning decades. Timeless tunes,
         a focus on vocal music — old, new, and everything that moves a room.
@@ -147,35 +154,62 @@
     </div>
 
     <div class="dj__gallery" aria-label="DJ photos">
-      <figure><img src="/assets/img/1000332185.jpg" alt="Behind the decks at Boiler Room" loading="lazy" /></figure>
-      <figure><img src="/assets/img/1000332202.jpg" alt="On the decks at home" loading="lazy" /></figure>
-      <figure><img src="/assets/img/1000332192.jpg" alt="Sunset sessions at Soho House Mumbai" loading="lazy" /></figure>
-      <figure><img src="/assets/img/1000332203.jpg" alt="Sundower with Jihaann and Kavo, Soho House" loading="lazy" /></figure>
-      <figure><img src="/assets/img/1000332204.jpg" alt="Throwback on the Pioneer decks" loading="lazy" /></figure>
-      <figure><img src="/assets/img/1000332208.jpg" alt="AFTERWHIZ at Taftoon" loading="lazy" /></figure>
+      <figure class="dj__gallery-feature">
+        <img src="/assets/img/1000332185.jpg" alt="Behind the decks at Boiler Room" loading="lazy" />
+        <figcaption>Behind the decks · Boiler Room</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/1000332202.jpg" alt="On the decks at home" loading="lazy" />
+        <figcaption>Home setup</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/1000332192.jpg" alt="Sunset sessions at Soho House Mumbai" loading="lazy" />
+        <figcaption>Sunset · Soho House</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/1000332203.jpg" alt="Sundowner with Jihaann and Kavo" loading="lazy" />
+        <figcaption>Sundowner · Soho House</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/1000332204.jpg" alt="Throwback on the Pioneer decks" loading="lazy" />
+        <figcaption>Pioneer throwback</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/1000332208.jpg" alt="AFTERWHIZ at Taftoon" loading="lazy" />
+        <figcaption>AFTERWHIZ · Taftoon</figcaption>
+      </figure>
     </div>
 
     <div class="dj__clips" aria-label="Short clips">
-      <video muted loop playsinline preload="metadata" controls>
-        <source src="/assets/video/1000332196.mp4" type="video/mp4" />
-      </video>
-      <video muted loop playsinline preload="metadata" controls>
-        <source src="/assets/video/1000332217.mp4" type="video/mp4" />
-      </video>
-      <video muted loop playsinline preload="metadata" controls>
-        <source src="/assets/video/1000332190.mp4" type="video/mp4" />
-      </video>
+      <figure class="clip">
+        <video muted loop playsinline preload="metadata" controls>
+          <source src="/assets/video/1000332196.mp4" type="video/mp4" />
+        </video>
+        <figcaption><span>Reel 01</span><em>Vocal House</em></figcaption>
+      </figure>
+      <figure class="clip">
+        <video muted loop playsinline preload="metadata" controls>
+          <source src="/assets/video/1000332217.mp4" type="video/mp4" />
+        </video>
+        <figcaption><span>Reel 02</span><em>Retro Set</em></figcaption>
+      </figure>
+      <figure class="clip">
+        <video muted loop playsinline preload="metadata" controls>
+          <source src="/assets/video/1000332190.mp4" type="video/mp4" />
+        </video>
+        <figcaption><span>Reel 03</span><em>Hard Dance</em></figcaption>
+      </figure>
     </div>
   </section>
 
   <!-- PODCAST -------------------------------------------------------- -->
   <section id="podcast" class="section section--pod">
     <div class="section__head">
-      <p class="section__num">03</p>
-      <h2 class="section__title">The Podcast</h2>
+      <p class="section__num">03 / Podcast</p>
+      <h2 class="section__title">The <em>Podcast</em></h2>
       <p class="section__lede">
         Conversations on growth, food, music and the people behind the scenes.
-        Watch the full library on Instagram.
+        Hosted on <em>Seek2Grow Media</em> — watch the full library on Instagram.
       </p>
     </div>
 
@@ -184,6 +218,50 @@
       <p class="pod__cta-handle">@seek2growmedia</p>
       <p class="pod__cta-arrow" aria-hidden="true">→</p>
     </a>
+
+    <div class="pod__videos" aria-label="Podcast episodes">
+      <figure class="episode">
+        <div class="episode__media">
+          <video muted loop playsinline preload="metadata" controls
+                 poster="/assets/img/1000332185.jpg">
+            <source src="/assets/video/1000332195.mp4" type="video/mp4" />
+          </video>
+          <span class="episode__tag">EP · 01</span>
+        </div>
+        <figcaption>
+          <p class="episode__title">Growth, Grind &amp; Garnish</p>
+          <p class="episode__meta">Seek2Grow Media · @seek2growmedia</p>
+        </figcaption>
+      </figure>
+
+      <figure class="episode">
+        <div class="episode__media">
+          <video muted loop playsinline preload="metadata" controls
+                 poster="/assets/img/1000332192.jpg">
+            <source src="/assets/video/1000332188.mp4" type="video/mp4" />
+          </video>
+          <span class="episode__tag">EP · 02</span>
+        </div>
+        <figcaption>
+          <p class="episode__title">Behind the Decks</p>
+          <p class="episode__meta">Seek2Grow Media · @seek2growmedia</p>
+        </figcaption>
+      </figure>
+
+      <figure class="episode">
+        <div class="episode__media">
+          <video muted loop playsinline preload="metadata" controls
+                 poster="/assets/img/1000332208.jpg">
+            <source src="/assets/video/1000332197.mp4" type="video/mp4" />
+          </video>
+          <span class="episode__tag">EP · 03</span>
+        </div>
+        <figcaption>
+          <p class="episode__title">Mumbai Nights</p>
+          <p class="episode__meta">Seek2Grow Media · @seek2growmedia</p>
+        </figcaption>
+      </figure>
+    </div>
 
     <div class="pod__embed">
       <blockquote class="instagram-media"
@@ -194,10 +272,112 @@
     </div>
   </section>
 
+  <!-- INSTAGRAM FEED ------------------------------------------------- -->
+  <section id="feed" class="section section--feed">
+    <div class="section__head">
+      <p class="section__num">04 / Feed</p>
+      <h2 class="section__title">From the <em>Feed</em></h2>
+      <p class="section__lede">
+        A taste of what's live on Instagram. Follow
+        <a class="inline-link" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">@izkavi</a>
+        and
+        <a class="inline-link" href="https://www.instagram.com/seek2growmedia/" target="_blank" rel="noopener">@seek2growmedia</a>
+        for the full story.
+      </p>
+    </div>
+
+    <div class="feed__grid">
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332185.jpg" alt="Behind the decks" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Behind the decks at Boiler Room.</p>
+          <p class="tile__tags">#vocalhouse #mumbai #boilerroom</p>
+        </div>
+      </a>
+      <a class="tile tile--video" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <video muted loop playsinline preload="metadata" autoplay>
+          <source src="/assets/video/1000332196.mp4" type="video/mp4" />
+        </video>
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Friday floor warm-up.</p>
+          <p class="tile__tags">#dj #retro</p>
+        </div>
+      </a>
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332192.jpg" alt="Sunset sessions at Soho House" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Sunset sessions · Soho House Mumbai.</p>
+          <p class="tile__tags">#sohohouse #sundowner</p>
+        </div>
+      </a>
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332202.jpg" alt="At the home studio" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Home studio · digging crates.</p>
+          <p class="tile__tags">#vinyl #oldschool</p>
+        </div>
+      </a>
+      <a class="tile tile--video" href="https://www.instagram.com/seek2growmedia/" target="_blank" rel="noopener">
+        <video muted loop playsinline preload="metadata" autoplay>
+          <source src="/assets/video/1000332190.mp4" type="video/mp4" />
+        </video>
+        <div class="tile__overlay">
+          <p class="tile__handle">@seek2growmedia</p>
+          <p class="tile__caption">New episode — drops this week.</p>
+          <p class="tile__tags">#seek2grow #podcast</p>
+        </div>
+      </a>
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332203.jpg" alt="Sundowner with the crew" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Sundowner with Jihaann + Kavo.</p>
+          <p class="tile__tags">#crew #mumbai</p>
+        </div>
+      </a>
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332204.jpg" alt="Pioneer throwback" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Throwback on the Pioneer decks.</p>
+          <p class="tile__tags">#throwback #pioneerdj</p>
+        </div>
+      </a>
+      <a class="tile tile--video" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <video muted loop playsinline preload="metadata" autoplay>
+          <source src="/assets/video/1000332217.mp4" type="video/mp4" />
+        </video>
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">Peak time. Hard dance.</p>
+          <p class="tile__tags">#harddance #peaktime</p>
+        </div>
+      </a>
+      <a class="tile" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+        <img src="/assets/img/1000332208.jpg" alt="AFTERWHIZ at Taftoon" loading="lazy" />
+        <div class="tile__overlay">
+          <p class="tile__handle">@izkavi</p>
+          <p class="tile__caption">AFTERWHIZ · Taftoon Mumbai.</p>
+          <p class="tile__tags">#nightlife #taftoon</p>
+        </div>
+      </a>
+    </div>
+
+    <a class="feed__follow" href="https://www.instagram.com/izkavi/" target="_blank" rel="noopener">
+      <span>Follow @izkavi on Instagram</span>
+      <em aria-hidden="true">→</em>
+    </a>
+  </section>
+
   <!-- CONTACT -------------------------------------------------------- -->
   <section id="contact" class="section section--contact">
     <div class="section__head">
-      <h2 class="section__title">Get in touch</h2>
+      <p class="section__num">05 / Contact</p>
+      <h2 class="section__title">Get in <em>touch</em></h2>
       <p class="section__lede">For bookings, catering enquiries or podcast features.</p>
     </div>
 
